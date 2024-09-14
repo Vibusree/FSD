@@ -1,0 +1,88 @@
+html{
+    height: 100vh;
+    background:rgb(220, 220, 221)
+}
+h4{
+    margin-bottom:0px;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:60%;
+    height:100%;
+    background: white;
+    padding:20px;
+    box-sizing: border-box;
+}
+#first-name,#last-name{
+    margin-right:15px;
+    margin-bottom:2px;
+    border:1px solid rgb(204, 202, 202);
+    border-radius:1px;
+    height:25px;
+    width: 180px;
+}
+#email{
+    border:1px solid rgb(204, 202, 202);
+    border-radius:1px;
+    height:25px;
+    width:384px;
+}
+tr{
+    height: 40px;
+}
+th{
+    font-weight: 400;
+    font-size: 13px;
+}
+tr:nth-child(even){
+    background:rgb(238, 237, 237);
+}
+td:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    padding-left: 10px;
+}
+td:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+th:first-child{
+    width: 20%;
+}
+table{
+    border-collapse: collapse;
+}
+#comments{
+    display:block;
+    width:100%;
+    height:80px;
+    margin-bottom:15px;
+    border:1px solid rgb(204, 202, 202);
+    border-radius:1px;
+}
+#submit{
+    width:70px;
+    height:40px;
+}
+.required::after{
+    content:"*";
+    color:red;
+    margin-left:4px;
+}
+input[type="radio"]{
+    display: block;
+    margin:auto;
+}
+.survey-form{
+    display:block
+}
+.form-group{
+    display:block
+}
+.btn ,.btn-primary{
+    display: block;
+}
