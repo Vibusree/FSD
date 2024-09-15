@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-weight: 500;
+    font-size: 100px;
+    text-align: left;
+    margin: 0;
+    color:rgb(179, 11, 179)
+}
+div{
+    height: 500px;
+    width: 800px;
+}
