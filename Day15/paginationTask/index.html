@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="pagination.css">
+</head>
+<body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="pagination.js"></script>
+    <h1 id="title" style="text-align: center;">LIST OF DETAILS</h1>
+    <P id="description" style="text-align: center;">This page gives the list of persons and their mail addresses</P>
+    <header id="header">
+        <div id="buttons" class="d-flex justify-content-center">
+            Show
+            <select id="entries">
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+            entries
+        </div>
+    </header><br/>
+    <div class="table-responsive">
+        <table id="table" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table><br/>
+    </div>
+    <footer class="footer">
+        <section id="footer-text"></section>
+        <section id="page-numbers"></section>
+    </footer>
+</body>
+</html>
